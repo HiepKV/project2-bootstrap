@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-one: #8261EE;
+    --color-two: #FF589E;
+    --color-text: #1e1e1e;
+
+    --font: 'Raleway', sans-serif;
+}
+
+body{
+    color: var(--color-text);
+    font-family: var(--font);
+    line-height: 1.6;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--color-two);
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: #F1F2F6;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text);
+    transition: 0.7s;
+}
+.button-two{
+    background-color: var(--color-two);
+    color: #F1F2F6;
+}
+.button-two:hover{
+    background-color: var(--color-one);
+    color: #F1F2F6;
+    text-decoration: none;
+}
+.button-one{
+    color: #F1F2F6;
+    background-color: var(--color-one);
+}
+.button-one:hover{
+    background-color: var(--color-two);
+    color: #F1F2F6;
+    text-decoration: none;
+}
+.header .inner-icon-mobi{
+    display: none;
+}
